@@ -1,0 +1,40 @@
+{
+  "identifier" : "Streamspend",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : {},
+  "subscriptionGroups" : [
+    {
+      "id" : "streamspend.subgroup",
+      "localizations" : [],
+      "name" : "Streamspend Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "1.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "streamspend.pro.monthly",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Renewal reminders and annual cost projection",
+              "displayName" : "Streamspend Pro",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "streamspend.pro.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Streamspend Pro Monthly",
+          "subscriptionGroupID" : "streamspend.subgroup",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
